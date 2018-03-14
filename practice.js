@@ -65,7 +65,8 @@ favoriteThings.book = "Harry Potter";
   Now, create a variable called 'item' and set it equal to the string 'firstPocket'. 
   Using bracket notation, add a 'firstPocket' key (or property) to backPack, using 'item'.
   Set the value of that key to 'chapstick'.
-  Using dot notation, add another key (or property) to your backPack object that is named color, with the value being the color of your backpack. 
+  Using dot notation, add another key (or property) to your backPack object that is
+   named color, with the value being the color of your backpack. 
 */
 
 var backPack = {
@@ -73,6 +74,7 @@ var backPack = {
 }
 var item = "firstPocket";
 backPack[item] = "chapstick"
+backPack.color = "Blue"
 
 
 /*
